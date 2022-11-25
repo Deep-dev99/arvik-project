@@ -1,0 +1,40 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.hero-section{
+    height: 50vh;
+    background: gray;
+    width: 100vw;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+    background-image: url(img/pexels-pixabay-89778.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.photo img{
+    height: 50vh;
+    width: 40vw;
+    object-fit: cover;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height: 20vh;
+    width: 100vw;
+    background: rgba(0,0,0,0.9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer h3{
+    font-size: 1rem;
+}
